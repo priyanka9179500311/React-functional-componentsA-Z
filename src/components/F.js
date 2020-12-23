@@ -2,10 +2,11 @@
 //import something from somelibrary
 
 import React from 'react';
+import G from './G';
 function F(){
     return(
         <React.Fragment>
-            <h1>Hello F</h1>
+            <sub>Hello F<G/></sub>
 
             <button>Submit</button>
         </React.Fragment> 

@@ -6,7 +6,6 @@ import ReactDOM from 'react-dom';
 
 //create functional component
 //1.Example of Named Export
-//import {B} from './components/B';
 //import {L} from './components/L';
 //import {M} from './components/M';
 //import {N} form './components/N';
@@ -16,7 +15,7 @@ import ReactDOM from 'react-dom';
 //import {R} from './components/R';
 //import {S} from './components/S';
 //2.Example of Deafault Export
-//import X from './components/A';
+import A from './components/A';
 
 //import C from './components/C';
 //import D from './components/D';
@@ -33,8 +32,8 @@ import ReactDOM from 'react-dom';
 //import W from './components/W';
 //import X from './components/X';
 //import Y from './components/Y';
-import Z from './components/Z';
+//import Z from './components/Z';
 
 
 //object.method();
-ReactDOM.render(<Z/>,document.getElementById('root'));//actual argument
+ReactDOM.render(<A/>,document.getElementById('root'));//actual argument

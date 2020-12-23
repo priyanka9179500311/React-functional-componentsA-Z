@@ -2,10 +2,11 @@
 //import something from somelibrary
 
 import React from 'react';
+import {Q} from './Q';
 export function P(){
     return(
         <React.Fragment>
-            <h1>Hello P</h1>
+            <sub>Hello P<Q/></sub>
 
             <button>Click</button>
         </React.Fragment> 

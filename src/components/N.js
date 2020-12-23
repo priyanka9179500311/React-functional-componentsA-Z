@@ -2,10 +2,11 @@
 //import something from somelibrary
 
 import React from 'react';
+import {O} from './O';
 export function N(){
     return(
         <React.Fragment>
-            <h1>Hello N</h1>
+            <strong>Hello N<O/></strong>
 
             <button>Click Me</button>
         </React.Fragment> 

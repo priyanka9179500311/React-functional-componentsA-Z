@@ -5,7 +5,7 @@ import React from 'react';
 let Z = ()=>{
     return(
         <React.Fragment>
-            <h1>Hello Z</h1>
+            <span>Hello Z</span>
 
             <button>Submit</button>
         </React.Fragment> 
